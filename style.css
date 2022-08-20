@@ -1,0 +1,44 @@
+body {
+    background-color: cornsilk;
+}
+
+main {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+main p {
+    border: 0.2px solid black;
+    background-color: rgb(50, 48, 48);
+    color: rgb(121, 123, 125);
+    text-align: right;
+    width: 85%;
+    height: 1rem;
+}
+
+.calculadora,
+.calculadora table {
+    background-color: rgb(102, 95, 95);
+    width: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calculadora table td button {
+    background-color: rgb(50, 48, 48);
+    border: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    color: white;
+}
+
+.calculadora table td button:hover {
+    background-color: rgb(23, 22, 22);
+}
