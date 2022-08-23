@@ -7,7 +7,7 @@ main {
     height: 70vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 10rem;
     margin: 0 auto;
     align-items: center;
 }
@@ -15,30 +15,53 @@ main {
 main p {
     border: 0.2px solid black;
     background-color: rgb(50, 48, 48);
-    color: rgb(121, 123, 125);
+    color: rgb(247, 251, 254);
     text-align: right;
-    width: 85%;
-    height: 1rem;
+    width: 79%;
+    height: 4rem;
+    font-size: 3rem;
 }
+main h1{font-size: 5rem;}
 
-.calculadora,
-.calculadora table {
+main h2{
+    font-size: 3rem;
+}
+.calculadora {
     background-color: rgb(102, 95, 95);
-    width: 8rem;
+    width: 40rem;
+    height: 55rem;
+    padding-block: 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    border-radius: 20px;
+    gap: 2rem;
+    border: 6px solid rgb(53, 53, 53);
 }
 
 .calculadora table td button {
     background-color: rgb(50, 48, 48);
     border: none;
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 7.5rem;
+    height: 7.5rem;
     color: white;
+    font-size: 3rem;
 }
 
-.calculadora table td button:hover {
+.calculadora table tr #equal, .calculadora table tr #equal button{
+   background-color: rgb(50, 48, 48);
+}
+.calculadora table tr #equal button{
+    height: 15rem;
+ }
+ 
+.calculadora table tr #zero button{
+    background-color: rgb(50, 48, 48);
+ }
+.calculadora table tr #zero, .calculadora table tr #zero button{
+    width: 15rem;
+}
+.calculadora table td button:hover, .calculadora table tr #equal button:hover, .calculadora table tr #zero button:hover{
     background-color: rgb(23, 22, 22);
 }
